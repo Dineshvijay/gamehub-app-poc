@@ -7,9 +7,9 @@ interface Props {
 }
 const NavBar = ({ searchGame }: Props) => {
   return (
-    <HStack paddingLeft={5} paddingRight={5} alignItems={"center"}>
+    <HStack alignItems={"center"}>
       <Text fontSize={`3xl`} fontWeight={700} whiteSpace={"nowrap"}>
-        Game Hub
+        GameHub
       </Text>
       <HStack
         style={{
